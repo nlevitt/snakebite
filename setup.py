@@ -56,7 +56,7 @@ tests_require = [
 
 setup(
     name='snakebite',
-    version=version(),
+    version="{}-python3".format(version()),
     author=u'Wouter de Bie',
     author_email='wouter@spotify.com',
     description='Pure Python HDFS client',
